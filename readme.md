@@ -8,6 +8,17 @@ Firstly there is a project to check some features of the board. It's got a small
 
 Once the board has been explored, move on to getting the LoRaWAN connection to The Things Network (TTN) up and running.
 
+There's an empty sketch at the top level of the folder, ready for us to pull all of the sample stuff together.
+
+Sketches
+========
+The sketches in this repo are:
+
+- makerhawk_esp32 - an empty sketch (currently) for us to put our own code in - plagiarised from the other projects probably
+- WiFi_LoRa_32FactoryTest_NT - a modified example sketch which tests the features of the board
+- makerhawk_esp32_NT_print_id - prints the device's LoRaWAN ID - needed to register the device on TNN
+- OTAA_NT - (supposedly - untested as yet) - connects to TNN using the OTAA method
+
 Pre-reqs
 =======
 A Micro USB cable and the board itself are the only hardware required.
